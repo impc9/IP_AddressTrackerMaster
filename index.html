@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>    <!--leaflet css-->
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>    <!--leaflet js-->
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+</head>
+<body>
+
+  <div class="container">
+    <h1>IP Address Tracker</h1>
+    <div class="input">
+      <input type="text" id="userInput" placeholder="Search for any IP address or domain">
+      <div id="search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="14"><path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6"/></svg>
+      </div>
+    </div>
+  </div>
+  
+  <div class="details">
+    <ul>
+      <li>
+        <h6>IP Address</h6>
+        <h2 id="ip">192.212.174.101</h2>
+      </li>
+      <li>
+        <h6>Location</h6>
+        <h2 id="location">Brooklyn, NY</h2>
+        <h2 id="postal">10001</h2>
+      </li>
+      <li>
+        <h6>Timezone</h6>
+        <h2 id="timezone">UTC -05:00</h2>
+      </li>
+      <li>
+        <h6>ISP</h6>
+        <h2 id="isp">SpaceX <br>Starlink</h2>
+      </li>
+    </ul>
+  </div>
+
+  <div id="map"></div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">IMPC</a>.
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>    <!--ipify api js -->
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
