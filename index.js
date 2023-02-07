@@ -7,7 +7,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Custom marker icon by leaflet
 var myIcon = L.icon({
-    iconUrl: "./images/icon-location.svg",
+    iconUrl: "images/icon-location.svg",
     iconSize:     [38, 50], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
