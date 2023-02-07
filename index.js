@@ -7,7 +7,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Custom marker icon by leaflet
 var myIcon = L.icon({
-    iconUrl: "/ip-address-tracker-master/images/icon-location.svg",
+    iconUrl: "./images/icon-location.svg",
     // shadowUrl: 'leaf-shadow.png',
     iconSize:     [38, 50], // size of the icon
     // shadowSize:   [50, 64], // size of the shadow
