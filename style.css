@@ -8,7 +8,7 @@
 .container{
     display: flex;
     flex-direction: column;
-    background: url("images/pattern-bg.png") center center/cover no-repeat;
+    background: url("./images/pattern-bg.png") center center/cover no-repeat;
     width: 100vw;
     height: 32vh;
 }
